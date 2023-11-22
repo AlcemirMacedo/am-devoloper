@@ -1,0 +1,108 @@
+.skills-section{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    padding-bottom: 70px;
+    background-color: #070D1B;
+}
+
+.skills-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skills-section .skills-topic{
+    display: flex;
+    margin-top: 60px;
+}
+.skills-section .skills-topic .box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;   
+}
+.skills-section .skills-topic .box h1{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight:  400;
+    margin-bottom: 45px;
+}
+.skills-section .skills-topic .box p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 31px;
+    text-indent: 30px;
+    text-align: justify;
+}
+.skills-section .skills-topic .box2{
+    padding-left: 60px;
+}
+.skills-section .skills-topic .box2 h2{
+    color: #FFC107;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.skills-section .skills-topic .box2 .skill .skill-name{
+    color: #FFFFFF;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.skills-section .skills-topic .box2 .skill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px #A9ADB8 solid;
+    margin-bottom: 20px;
+}
+.skills-section .skills-topic .box2 .skill .line1{
+    border-bottom: 4px #FFC107 solid;
+    z-index: 100;
+    position: static;
+    margin-bottom: -3px;
+}
+.skills-section .skills-topic .box2 .skill .figma{
+    width: 40%;
+}
+.skills-section .skills-topic .box2 .skill .corel{
+    width: 80%;
+}
+.skills-section .skills-topic .box2 .skill .illustrator{
+    width: 50%;
+}
+.skills-section .skills-topic .box2 .skill .photoshop{
+    width: 30%;
+}
+.skills-section .skills-topic .box2 .skill .blender{
+    width: 30%;
+}
+
+.skills-section .skills-topic .box2 .last{
+    margin-bottom: 40px;
+
+}
+.skills-section .skills-topic .box2 .skill .javascript{
+    width: 30%;
+}
+.skills-section .skills-topic .box2 .skill .html{
+    width: 80%;
+}
+.skills-section .skills-topic .box2 .skill .css{
+    width: 80%;
+}
+.skills-section .skills-topic .box2 .skill .react{
+    width: 40%;
+}
+.skills-section .skills-topic .box2 .skill .next{
+    width: 20%;
+}
+.skills-section .skills-topic .box2 .skill .mysql{
+    width: 40%;
+}
+.skills-section .skills-topic .box2 .skill .firebase{
+    width: 50%;
+}
