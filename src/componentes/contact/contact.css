@@ -1,0 +1,58 @@
+.contact-section{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #070D1B;
+}
+
+.contact-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-topic{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-top: 120px;
+    align-items: flex-start;
+}
+.contact-topic .side1, .contact-topic .side2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.contact-topic .side1 h1, .contact-topic .side2 h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contact-topic .side1 input,.contact-topic .side1 textarea{
+    all: unset; 
+    width: 470px;
+    height: 52px;
+    border-radius: 7px;
+    padding: 0 20px;
+    background-color: #101624;
+    border:1px solid #232935;
+    color: #3F4551;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.contact-topic .side1 textarea{
+    padding-top: 10px;
+    height:214px;
+    margin-bottom: -20px;
+}
+
+
+

@@ -38,7 +38,9 @@ nav ul{
     margin-right: 15px;
 }
 nav ul li{
-    margin-right: 32px;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 300;
     cursor: pointer;
     transition: all 0.5s;
 }

@@ -18,12 +18,13 @@ export default function Header(){
                 </div>
                 <nav>
                     <ul>
-                        <li>home</li>
-                        <li>about me</li>
-                        <li>resume</li>
-                        <li>porfolio</li>
-                        <li>blog</li>
-                        <li>contact</li>
+                        <li><a href='#home'>home</a></li>
+                        <li><a href='#about'>about me</a></li>
+                        <li><a href='#resume'>resume</a></li>
+                        <li><a href='#portfolio'>portfolio</a></li>
+                        <li><a href='#reviews'>reviews</a></li>
+                        <li><a href='#blog'>blog</a></li>
+                        <li><a href='#contact'>contact</a></li>
                     </ul>
                 </nav>
                 <div className='cellPhone'>

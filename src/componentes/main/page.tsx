@@ -10,6 +10,7 @@ export default function Banner(){
 
     return(
         <main>
+            <a id='home'></a>
            <div className='mask'>
             <h1 className='h1-fade'>ALCEMIR<br/>MACEDO</h1>
                 <div className='container-main'>

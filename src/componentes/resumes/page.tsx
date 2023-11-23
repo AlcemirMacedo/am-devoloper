@@ -6,6 +6,7 @@ import iconExpirience from './assets/expirience.png'
 export default function Resume(){
     return(
         <section className="resume-section">
+            <a id='resume'></a>
             <div className="container">
                 <div className="title">                    
                     <div className="line"></div>

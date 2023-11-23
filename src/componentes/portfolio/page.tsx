@@ -11,6 +11,7 @@ import imgPort6 from './img/portfolio6_lg.jpg'
 export default function Portfolio(){
     return(
         <section className="portfolio-section">
+            <a id='portfolio'></a>
             <div className="container">
                 <div className="title">                    
                     <div className="line"></div>

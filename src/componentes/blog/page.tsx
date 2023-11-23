@@ -8,6 +8,7 @@ import imgBlog3 from './img/blog3.jpg'
 export default function Blog(){
     return(
         <section className="blog-section">
+            <a id='blog'></a>
             <div className="container">
                 <div className="title">                    
                     <div className="line"></div>
