@@ -76,7 +76,7 @@ main{
     background-color: #31373E;
     padding-bottom: 0;
 }
-.circ{
+.barra-vert .circ{
     width: 72px;
     display: flex;
     align-items: center;
@@ -85,12 +85,12 @@ main{
     border-radius: 36px;
     background-color: #0A101E;
     margin-bottom: 12px;
-    transition: all 0.45s ease-in-out;
+    transition: all 0.25s ease-in-out;
     cursor: pointer;
     padding-right: 20px;
     border: 1px rgba(255, 193, 5, 0%) solid;
 }
-.circ:hover{
+.barra-vert .circ:hover{
     width: 250px;
     border: 1px #FFC107 solid;
     background-color: rgba(10, 10, 30, 27%);
