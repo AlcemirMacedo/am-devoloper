@@ -1,5 +1,4 @@
 
-
 header{
     width: 100%;
     height: 80px;
@@ -21,34 +20,72 @@ header{
     align-items: center;
 }
 
-.logo{
+
+.logo .img-logo{
     display: flex;
     flex: 1;
+    width: 203px;
+    height: 60px;
+    transition: all 0.5s;
 }
 
-nav {
+.menu-mobile{
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.menu-mobile .line1{
+    width: 32px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 8px;
+    z-index: 2000;
+}
+
+.nav-list {
     display: flex;
     border-right: 1px #FFC107 solid;
     color: #ffffff;
     align-items: center;
 }
-nav ul{
+.nav-list ul{
     display: flex;
     list-style: none;
     margin-right: 15px;
 }
-nav ul li{
+.nav-list ul li{
     margin-right: 25px;
     font-size: 14px;
     font-weight: 300;
     cursor: pointer;
     transition: all 0.5s;
 }
-nav ul li:hover{
+.nav-list ul li:hover{
     color: #FFC107;
 }
 
 .cellPhone{
     color: #FFC107;
     margin-left: 28px;
+}
+
+@media screen and (max-width:580px) {
+    .logo .img-logo{
+        width: 120px;
+        height: 40px;
+    }
+    .nav-list ul{
+        position: absolute;
+        top: 80px;
+        width: 50vw;
+        height: 80vh;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    header{
+        flex-direction: column;
+    }
+    .cellPhone{
+        display: none;
+    }
 }

@@ -9,14 +9,18 @@ export default function Header(){
         <header>
             <div className='container'>
                 <div className="logo">
-                    <Image 
+                    <Image className='img-logo'
                         src={profilePic}
                         alt="Alcemir Macedo"
-                        width={203}
-                        height={60}
+                        
                     />
                 </div>
-                <nav>
+                <nav className='nav-list'>
+                    <div className='menu-mobile'>
+                        <div className='line1'></div>
+                        <div className='line1'></div>
+                        <div className='line1'></div>
+                    </div>
                     <ul>
                         <li><a href='#home'>home</a></li>
                         <li><a href='#about'>about me</a></li>
