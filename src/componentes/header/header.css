@@ -18,20 +18,27 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
+.logo{
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
 
 .logo .img-logo{
-    display: flex;
-    flex: 1;
-    width: 203px;
-    height: 60px;
     transition: all 0.5s;
+    width: 180px;
+    height: 60px;
 }
 
 .menu-mobile{
     cursor: pointer;
     z-index: 2000;
+    display: none;
 }
 
 .menu-mobile .line1{
@@ -43,44 +50,92 @@ header{
 }
 
 .nav-list {
-    display: flex;
-    border-right: 1px #FFC107 solid;
+    display: flex;    
+    height: 100%;
+    flex: 3;
     color: #ffffff;
     align-items: center;
+    justify-content: flex-end;
 }
 .nav-list ul{
     display: flex;
     list-style: none;
-    margin-right: 15px;
+    align-items: flex-end;
 }
 .nav-list ul li{
-    margin-right: 25px;
-    font-size: 14px;
+    margin-right: 15px;
+    font-size: 0.9rem;
     font-weight: 300;
     cursor: pointer;
     transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.nav-list ul li a{
+    width: 100%;
+    height: 100%;
+}
+.nav-list ul:last-child{
+    margin-right: 0;
 }
 .nav-list ul li:hover{
     color: #FFC107;
 }
 
 .cellPhone{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
     color: #FFC107;
-    margin-left: 28px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-left: 1px #FFC107 solid;
+}
+@media screen and (max-width:800px){
+    .logo .img-logo{
+        width: 160px;
+        height: 50px;
+    }
+    .nav-list ul li{
+        font-size: 10px;
+    }
+    .container{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:580px) {
+    .logo{
+        position: absolute;
+        width: 100%;
+        justify-content:center;
+    }
     .logo .img-logo{
-        width: 120px;
-        height: 40px;
+        width: 140px;
+        height: 45px;
+    }
+    .nav-list {
+        flex: 1;
     }
     .nav-list ul{
         position: absolute;
         top: 80px;
         width: 50vw;
-        height: 80vh;
+        height: auto;
         flex-direction: column;
+        background-color: rgba(8, 14, 28, 80%);
+    }
+    .nav-list ul li{
         margin-right: 0;
+        font-size: 14px;;
+        border-bottom: 1px rgba(255, 255, 255, 10%) solid;
+        width: 100%;
+        padding: 15px 15px 15px 10px;
+        align-items: center;
+        justify-content: flex-end;
     }
     header{
         flex-direction: column;
@@ -88,4 +143,12 @@ header{
     .cellPhone{
         display: none;
     }
+    .menu-mobile{
+        display: block;
+        padding-right: 20px;
+    }
+    .container{
+        width:100%;
+    }
+    
 }

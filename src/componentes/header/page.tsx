@@ -12,7 +12,6 @@ export default function Header(){
                     <Image className='img-logo'
                         src={profilePic}
                         alt="Alcemir Macedo"
-                        
                     />
                 </div>
                 <nav className='nav-list'>
