@@ -18,14 +18,7 @@ export default function Home() {
       <Header />
       <Banner />
       <About />
-      <Service />
-      <Skills />
-      <Resume />
-      <Portfolio />
-      <Reviews />
-      <Blog />
-      <Contact />
-      <Footer />
+      
     </div>
   )
 }

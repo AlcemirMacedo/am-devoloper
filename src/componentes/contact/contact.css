@@ -134,4 +134,14 @@
     border: 1px #FFC107 solid;
     background-color: rgba(10, 10, 30, 27%);
 }
-
+@media screen and (max-width:580px){
+    .contact-section .contact-topic{
+        flex-direction: column;
+    }
+    .contact-topic .side1 input,.contact-topic .side1 textarea{
+        width: 80%;
+    }
+    .barra-hori{
+        width: 80%;
+    }
+}

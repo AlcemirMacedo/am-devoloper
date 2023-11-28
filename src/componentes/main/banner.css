@@ -96,4 +96,15 @@ main{
     background-color: rgba(10, 10, 30, 27%);
 }
 
+@media screen and (max-width:580px){
+    .mask .h1-fade{
+        display: none;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+    .social-nav{
+        display: none;
+    }
+}
 

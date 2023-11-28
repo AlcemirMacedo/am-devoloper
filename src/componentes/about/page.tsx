@@ -10,14 +10,15 @@ export default function About(){
                     <div className="line"></div>
                     <h1>About me</h1>
                     <div className='bigTitle'>About me</div>
+                    
                 </div>
 
-                <div className="infos">
+                <div className="infos">    
                     <div className="hi">
                         <h1>Hi There! I am Alcemir Macedo</h1>
                         <h2>Programmer and Graphic Design</h2>
                         <p>I am a Graphic Designer with a strong focus on Web Developer. With more then 10 years of experience in arts creation, prints, brands, visual communication and so much more. I am improving more and more about web programming, UX and UI design, front end, back end</p>
-                    </div>
+                    </div>                
                     <div className="infos-desc">
                         <ul>
                             <li>Birthday: Jan 08, 1981</li>

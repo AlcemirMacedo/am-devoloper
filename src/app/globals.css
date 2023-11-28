@@ -80,3 +80,8 @@ header{
   color: #ffffff;
   border: 1px #FFC107  solid;
 }
+@media  screen and (max-width:580px) {
+  .title .bigTitle{
+    display: none;
+  }
+}

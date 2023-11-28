@@ -23,7 +23,7 @@ header{
 
 .logo{
     display: flex;
-    flex:2;
+    flex:1;
     align-items: center;
     justify-content: flex-start;
     height: 100%;
@@ -60,7 +60,7 @@ header{
 .nav-list ul{
     display: flex;
     list-style: none;
-    align-items: flex-end;
+    align-items: center;
 }
 .nav-list ul li{
     margin-right: 15px;
@@ -90,7 +90,6 @@ header{
     justify-content: flex-end;
     flex: 1;
     color: #FFC107;
-    margin-left: 5px;
     padding-left: 10px;
     border-left: 1px #FFC107 solid;
 }
@@ -110,35 +109,32 @@ header{
 @media screen and (max-width:580px) {
     .logo{
         position: absolute;
-        width: 100%;
+        width: 80%;
         justify-content:center;
+        border: 1px red solid;
     }
     .logo .img-logo{
         width: 140px;
         height: 45px;
     }
-    .nav-list {
-        flex: 1;
-    }
     .nav-list ul{
-        position: absolute;
+        position: fixed;
         top: 80px;
         width: 50vw;
         height: auto;
         flex-direction: column;
         background-color: rgba(8, 14, 28, 80%);
+        border: 1px red solid;
     }
     .nav-list ul li{
         margin-right: 0;
         font-size: 14px;;
+        
         border-bottom: 1px rgba(255, 255, 255, 10%) solid;
         width: 100%;
         padding: 15px 15px 15px 10px;
         align-items: center;
         justify-content: flex-end;
-    }
-    header{
-        flex-direction: column;
     }
     .cellPhone{
         display: none;
