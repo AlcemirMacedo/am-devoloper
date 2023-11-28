@@ -1,5 +1,5 @@
 .service-section{
-    padding-top: 100px;
+    padding-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,5 +57,7 @@
     border: 1px #3F4551 solid;
 }
 @media sreen and (max-width:580px){
-
+    .service-section{
+        padding-top: 10px;
+    }
 }

@@ -88,3 +88,16 @@
     padding-bottom: 0;
 }
 
+
+@media screen and (max-width: 580px){
+    .resume-topic{
+        margin-top: 80px;
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .resume-topic .side1{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+

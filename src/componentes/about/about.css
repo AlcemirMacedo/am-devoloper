@@ -96,4 +96,10 @@
         font-size: 22px;
         text-align: center;
     }
+    .infos .infos-desc{
+        
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
 }
