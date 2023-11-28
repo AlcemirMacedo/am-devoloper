@@ -1,10 +1,10 @@
 .portfolio-section{
-    padding-top: 100px;
+    padding-top: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 1000px;
+    height: auto;
     background-color: #0A101E;
 }
 
@@ -49,4 +49,28 @@
 .box-portfolio .box .mask-port:hover{
     background-color: rgba(33,  37, 41, 64%);
     color: rgba(255, 255, 255, 100%);
+}
+
+
+@media screen and (max-width:580px){
+    .portfolio-section{
+        padding-top: 0;
+    }
+    .portfolio-section .container{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        flex: 3;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .box-portfolio .box{
+        margin-bottom: 20px;
+    }
 }

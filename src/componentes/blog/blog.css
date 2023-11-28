@@ -48,4 +48,21 @@
     margin-top: 15px;
 }
 
+@media screen and (max-width:580px){
+    .blog-section{
+        padding-top: 0;
+    }
+    .box-blog {
+        align-items: center;
+        justify-content: center;
+    }
+    .box-blog .box p{
+        text-align: center;
+    }
+    .box-blog .box span{
+        text-align: center;
+    }
+    
+}
+
 

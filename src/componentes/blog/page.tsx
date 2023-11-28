@@ -21,7 +21,7 @@ export default function Blog(){
                         <Image
                             src={imgBlog1}
                             alt='imgBlog1'
-                            width={350}
+                            width={330}
                             height={209}
                         />
                         <p>By:Admin | 10/10/2023</p>
@@ -32,7 +32,7 @@ design according to you?</span>
                         <Image
                             src={imgBlog2}
                             alt='imgBlog2'
-                            width={350}
+                            width={330}
                             height={209}
                         />
                         <p>By:Admin | 10/10/2023</p>

@@ -1,5 +1,5 @@
 .contact-section{
-    padding-top: 100px;
+    padding-top: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 620px;
+    height: auto;
 }
 .contact-topic .side1 h1, .contact-topic .side2 h1{
     font-size: 30px;
@@ -135,8 +135,19 @@
     background-color: rgba(10, 10, 30, 27%);
 }
 @media screen and (max-width:580px){
+    .contact-section{
+        padding-top: 0;
+    }
     .contact-section .contact-topic{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-topic .side1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px red solid;
     }
     .contact-topic .side1 input,.contact-topic .side1 textarea{
         width: 80%;

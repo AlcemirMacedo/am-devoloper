@@ -21,6 +21,11 @@ export default function Home() {
       <Service />
       <Skills />
       <Resume />
+      <Portfolio />
+      <Reviews />
+      <Blog />
+      <Contact />
+      <Footer />
     </div>
   )
 }
