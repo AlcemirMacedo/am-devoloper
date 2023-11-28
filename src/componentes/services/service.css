@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 1000px;
+    height: auto;
     background-color: #0A101E;
+    padding-bottom: 50px;
 }
 
 .service-section .container{
@@ -22,6 +23,7 @@
     flex: 3;
     align-items: flex-start;
     justify-content: space-around;
+    
 }
 .box-service .box{
     width: 330px;
@@ -35,6 +37,7 @@
     justify-content: space-around;
     text-align: center;
     padding: 40px 20px 5px 20px;
+    margin-bottom: 30px;
 }
 .box-service .box h2{
     font-size: 20px;
@@ -53,4 +56,6 @@
     background-color: #070D1B;
     border: 1px #3F4551 solid;
 }
+@media sreen and (max-width:580px){
 
+}

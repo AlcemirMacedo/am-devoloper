@@ -18,7 +18,9 @@ export default function Home() {
       <Header />
       <Banner />
       <About />
-      
+      <Service />
+      <Skills />
+      <Resume />
     </div>
   )
 }

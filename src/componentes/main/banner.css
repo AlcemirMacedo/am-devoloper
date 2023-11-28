@@ -97,14 +97,43 @@ main{
 }
 
 @media screen and (max-width:580px){
+    main{
+        height: auto;
+    }
+    .container-main{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
     .mask .h1-fade{
         display: none;
-    }
-    .banner h1{
-        font-size: 36px;
     }
     .social-nav{
         display: none;
     }
+    .banner{
+        align-items: center;
+        margin-bottom: 50px;
+    }
+        
+    .banner h2{
+        color: #FFC107;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .banner h1{
+        margin-top: 15px;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+    }
+    .banner span {
+        font-size: 24px;
+        color: #A9AD88;
+        text-align: center;
+    }
+    
 }
 
