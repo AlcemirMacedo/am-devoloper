@@ -21,7 +21,7 @@
     margin-top: 70px;
     flex: 3;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 50px;
 }
 .box-portfolio .box{
@@ -30,7 +30,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 30px;
 }
 .box-portfolio .box .mask-port{
     position: absolute;

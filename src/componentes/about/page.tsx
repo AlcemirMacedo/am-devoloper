@@ -17,7 +17,7 @@ export default function About(){
                     <div className="hi">
                         <h1>Hi There! I am Alcemir Macedo</h1>
                         <h2>Programmer and Graphic Design</h2>
-                        <p>I am a Graphic Designer with a strong focus on Web Developer. With more then 10 years of experience in arts creation, prints, brands, visual communication and so much more. I am improving more and more about web programming, UX and UI design, front end, back end</p>
+                        <p>I am a Graphic Designer with a strong focus on Web Developer. With more then 10 years of experience in arts creation, prints, brands, visual communication and so much more. I am improving more and more about Web Programming, UX and UI Design, Front End, Back End</p>
                     </div>                
                     <div className="infos-desc">
                         <ul>

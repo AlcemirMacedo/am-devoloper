@@ -36,7 +36,7 @@
     justify-content: flex-start;
 }
 .box-reviews .box .box-top p{
-    width: 350px;
+    width: 330px;
     padding: 20px 10px 15px 10px;
     background-color: #101624;
     color: #ffffff;
@@ -71,5 +71,18 @@
 @media screen and (max-width:580px){
     .reviews-section{
         padding-top: 0;
+    }
+    .box-reviews{
+        width: 85%;
+    }
+    .box-reviews .box{        
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .box-reviews .box .box-top p{
+        width: 310px;
+        padding: 20px 10px 15px 10px;
     }
 }

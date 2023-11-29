@@ -19,3 +19,14 @@
     font-weight: 300;
     text-align: center;
 }
+
+
+@media screen and (max-width:580px) {
+    .footer-section .container{
+        width: 85%;
+        font-size: 14px;
+    }
+    .footer-section .container p{
+        line-height: 24px;
+    }
+}

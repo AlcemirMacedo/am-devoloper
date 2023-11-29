@@ -116,10 +116,12 @@
         justify-content: center;
     }
     .skills-section .skills-topic .box{
-        padding: 10px 20px;  
+        padding: 10px 0;  
     }
-    .skills-section .skills-topic .box1{
+    .skills-section .skills-topic .box1, .box2{
         margin-bottom: 20px;
+        width: 85%;
+
     }
     .skills-section .skills-topic .box h1{
         font-size: 24px;

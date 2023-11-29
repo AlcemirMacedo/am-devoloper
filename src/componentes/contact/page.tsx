@@ -79,31 +79,31 @@ export default function Contact(){
                        <p>Visite my social profile and get connected</p>
                        <div className='social-nav-hori'>
                             <div className='barra-hori'>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgGit}
-                                    alt="Github"
-                                    width={29}
-                                    height={29}
-                                />
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgGit}
+                                        alt="Github"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgLinkedin}
+                                        alt="Linkedin"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgInstagram}
+                                        alt="Instagram"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
                             </div>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgLinkedin}
-                                    alt="Linkedin"
-                                    width={29}
-                                    height={29}
-                                />
-                            </div>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgInstagram}
-                                    alt="Instagram"
-                                    width={29}
-                                    height={29}
-                                />
-                            </div>
-                        </div>
                     </div>
                     </div>
 
