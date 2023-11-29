@@ -27,6 +27,7 @@
 }
 .contact-topic .side1, .contact-topic .side2{
     display: flex;
+    width: 100%;
     flex-direction: column;
     flex: 1;
     height: auto;
@@ -39,7 +40,7 @@
 }
 .contact-topic .side1 input,.contact-topic .side1 textarea{
     all: unset; 
-    width: 470px;
+    width: 90%;
     height: 52px;
     border-radius: 7px;
     padding: 0 20px;
@@ -142,17 +143,32 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
     }
     .contact-topic .side1{
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px red solid;
     }
     .contact-topic .side1 input,.contact-topic .side1 textarea{
-        width: 80%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-topic .side2{
+        padding:0 20px;
+        margin-top: 50px;
     }
     .barra-hori{
         width: 80%;
+    }
+    .contact-topic .side1 h1, .contact-topic .side2 h1{
+        text-align: center;
+    }
+    .contact-section form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

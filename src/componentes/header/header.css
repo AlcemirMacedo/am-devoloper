@@ -57,7 +57,7 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
-.nav-list ul{
+.nav-list .menu-ul{
     display: flex;
     list-style: none;
     align-items: center;
@@ -116,14 +116,14 @@ header{
         width: 140px;
         height: 45px;
     }
-    .nav-list ul{
+    .nav-list .menu-ul{
         position: fixed;
+        display: none;
         top: 80px;
         width: 50vw;
         height: auto;
         flex-direction: column;
         background-color: rgba(8, 14, 28, 80%);
-        border: 1px red solid;
     }
     .nav-list ul li{
         margin-right: 0;

@@ -4,6 +4,7 @@ import profilePic from './img/logo.png'
 
 import './header.css'
 
+
 export default function Header(){
     return(
         <header>
@@ -20,7 +21,7 @@ export default function Header(){
                         <div className='line1'></div>
                         <div className='line1'></div>
                     </div>
-                    <ul>
+                    <ul className='menu-ul'>
                         <li><a href='#home'>home</a></li>
                         <li><a href='#about'>about me</a></li>
                         <li><a href='#resume'>resume</a></li>
