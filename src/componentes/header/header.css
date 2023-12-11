@@ -92,6 +92,7 @@ header{
     color: #FFC107;
     padding-left: 10px;
     border-left: 1px #FFC107 solid;
+    letter-spacing: 2px;
 }
 @media screen and (max-width:800px){
     .logo .img-logo{
@@ -110,7 +111,7 @@ header{
 @media screen and (max-width:580px) {
     .logo{
         position: absolute;
-        width: 80%;
+        width: 100%;
         justify-content:center;
     }
     .logo .img-logo{
@@ -118,16 +119,13 @@ header{
         height: 45px;
     }
     .nav-list .menu-ul{
+        display: none;
         position: fixed;
         top: 80px;
         width: 50vw;
         height: auto;
         flex-direction: column;
         background-color: rgba(8, 14, 28, 80%);
-    }
-    .menu-mobile:hover(.nav-list .menu-ul){
-            display: flex;
-        
     }
     .nav-list ul li{
         margin-right: 0;
@@ -143,7 +141,7 @@ header{
         display: none;
     }
     .menu-mobile{
-        display: block;
+
         padding-right: 20px;
     }
     .container{

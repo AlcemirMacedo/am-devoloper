@@ -1,9 +1,10 @@
+import Link from 'next/link'
+
 import './banner.css'
 import Image from 'next/image'
 import imgGit from './assets/github.png'
 import imgLinkedin from './assets/linkedin.png'
 import imgInstagram from './assets/instagram.png'
-
 
 
 export default function Banner(){
@@ -15,10 +16,10 @@ export default function Banner(){
             <h1 className='h1-fade'>ALCEMIR<br/>MACEDO</h1>
                 <div className='container-main'>
                     <div className="banner">
-                        <h2>Hello, i m</h2>
+                        <h2>Hello, i'm</h2>
                         <h1>alcemir macedo</h1>
                         <span>Web Developer & Graphic Design Freelancer</span>
-                        <button className='botao'>Hire Me</button>
+                        <Link href={'https://wa.me/qr/IIS2RHRNJC6YN1'} target='blank'><button className='botao'>Hire-me</button></Link>
                     </div>
                     <div className='social-nav'>
                         <div className='barra-vert'>

@@ -1,5 +1,6 @@
 
 import './about.css'
+import Link from 'next/link'
 
 export default function About(){
     return(
@@ -8,15 +9,15 @@ export default function About(){
             <div className="container">
                 <div className="title">                    
                     <div className="line"></div>
-                    <h1>About me</h1>
-                    <div className='bigTitle'>About me</div>
+                    <h1>about me</h1>
+                    <div className='bigTitle'>about me</div>
                     
                 </div>
 
                 <div className="infos">    
                     <div className="hi">
-                        <h1>Hi There! I am Alcemir Macedo</h1>
-                        <h2>Programmer and Graphic Design</h2>
+                        <h1>Hello! I'm Alcemir Macedo</h1>
+                        <h2>Web Developer & Graphic Design Freelancer</h2>
                         <p>I am a Graphic Designer with a strong focus on Web Developer. With more then 10 years of experience in arts creation, prints, brands, visual communication and so much more. I am improving more and more about Web Programming, UX and UI Design, Front End, Back End</p>
                     </div>                
                     <div className="infos-desc">
@@ -28,7 +29,7 @@ export default function About(){
                             <li>Languages: Portuguese & English</li>
                             <li>Freelancer:  Avaliable</li>                           
                         </ul>
-                        <button className='botao'>Dowload CV</button>
+                        <Link href={'https://drive.google.com/file/d/1o09UEJSmWe9xTiY40KV4HNIzN_4jA-i6/view?usp=drive_link'} target='blank'><button className='botao'>Dowload CV</button></Link>
                     </div>
                 </div>
             </div>          

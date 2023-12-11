@@ -1,4 +1,5 @@
 import './portfolio.css'
+import Link from 'next/link'
 import Image from 'next/image'
 import imgPort1 from './img/portfolio1.jpg'
 import imgPort2 from './img/portfolio2_lg.jpg'
@@ -20,18 +21,21 @@ export default function Portfolio(){
                 </div>
 
                 <section className='box-portfolio'>
-                    <div className='box'>
-                        <div className='mask-port'>
-                            <h2>PRODUCT DESIGN</h2>
-                            <span>Design / Marketing</span>
+                    <Link href="/portfolio">
+                        <div className='box'>
+                            <div className='mask-port'>
+                                <h2>PRODUCT DESIGN</h2>
+                                <span>Design / Marketing</span>
+                            </div>
+                        <Image
+                                src={imgPort1}
+                                alt='portfolio1'
+                                width={320}
+                                height={283}
+                            />
                         </div>
-                       <Image
-                            src={imgPort1}
-                            alt='portfolio1'
-                            width={320}
-                            height={283}
-                        />
-                    </div>
+                    </Link>
+                    
                     <div className='box'>
                         <div className='mask-port'>
                             <h2>PRODUCT DESIGN</h2>

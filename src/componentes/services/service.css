@@ -1,5 +1,5 @@
 .service-section{
-    padding-top: 10px;
+    padding-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
 .box-service {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top:80px;
     flex: 3;
     align-items: flex-start;
     justify-content: space-around;
@@ -36,8 +36,14 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding: 40px 20px 5px 20px;
+    padding: 40px 10px 10px 10px;
     margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.box-service .box:hover{
+    border: 1px #FFC107 solid;
+    background-color: rgba(15, 22, 36, 10%)
 }
 .box-service .box h2{
     font-size: 20px;
@@ -46,10 +52,16 @@
 }
 .box-service .box p{
     font-size: 16px;
+    font-weight: 300;
     color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 150%;
 }
 
 .box-service .box-vct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90px;
     height: 90px;
     border-radius: 45px;
@@ -59,5 +71,8 @@
 @media sreen and (max-width:580px){
     .service-section{
         padding-top: 10px;
+    }
+    .box-service .box{
+        width: 80%;
     }
 }
