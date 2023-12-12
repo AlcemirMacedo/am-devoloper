@@ -91,7 +91,6 @@ main{
     border: 1px rgba(255, 193, 5, 0%) solid;
 }
 .barra-vert .circ:hover{
-    width: 250px;
     border: 1px #FFC107 solid;
     background-color: rgba(10, 10, 30, 27%);
 }

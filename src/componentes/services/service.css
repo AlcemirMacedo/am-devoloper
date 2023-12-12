@@ -68,11 +68,12 @@
     background-color: #070D1B;
     border: 1px #3F4551 solid;
 }
-@media sreen and (max-width:580px){
+
+@media screen and (max-width:580px){
     .service-section{
-        padding-top: 10px;
+        padding-top: 0;
     }
     .box-service .box{
-        width: 80%;
+        width: 90%;
     }
 }

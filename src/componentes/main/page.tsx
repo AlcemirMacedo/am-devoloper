@@ -23,30 +23,36 @@ export default function Banner(){
                     </div>
                     <div className='social-nav'>
                         <div className='barra-vert'>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgGit}
-                                    alt="Github"
-                                    width={29}
-                                    height={29}
-                                />
-                            </div>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgLinkedin}
-                                    alt="Linkedin"
-                                    width={29}
-                                    height={29}
-                                />
-                            </div>
-                            <div className='circ'>
-                                <Image 
-                                    src={imgInstagram}
-                                    alt="Instagram"
-                                    width={29}
-                                    height={29}
-                                />
-                            </div>
+                            <Link href={'https://github.com/AlcemirMacedo'} target='_blank'>
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgGit}
+                                        alt="Github"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
+                            </Link>
+                            <Link href={'https://br.linkedin.com/in/alcemir-alcemir-615496110'} target='_blank'>
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgLinkedin}
+                                        alt="Linkedin"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
+                            </Link>
+                            <Link href={'https://www.instagram.com/alcemirmacedo34/'} target='_blank'>
+                                <div className='circ'>
+                                    <Image 
+                                        src={imgInstagram}
+                                        alt="Instagram"
+                                        width={29}
+                                        height={29}
+                                    />
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     
