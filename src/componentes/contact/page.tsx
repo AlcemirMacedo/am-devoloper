@@ -21,16 +21,7 @@ export default function Contact(){
                     <div className='bigTitle'>contact me</div>
                 </div>
                 <section className='contact-topic'>
-                    <div className='side1'>
-                        <form action={''}>
-                            <h1>Just say hello!</h1>
-                            <input type='text' value={'Your name'} />
-                            <input type='email' value={'Your email'} />
-                            <input type='text' value={'Subject'} />
-                            <textarea value={'Messenger'}></textarea>
-                            <button className='botao'>Send Messenger</button>
-                        </form>
-                    </div>
+                   
                     <div className='side2'>
                        <h1>Contact Info</h1>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat.</p>
