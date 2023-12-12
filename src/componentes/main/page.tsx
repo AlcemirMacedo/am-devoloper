@@ -16,7 +16,7 @@ export default function Banner(){
             <h1 className='h1-fade'>ALCEMIR<br/>MACEDO</h1>
                 <div className='container-main'>
                     <div className="banner">
-                        <h2>Hello, i'm</h2>
+                        <h2>Hello, i am</h2>
                         <h1>alcemir macedo</h1>
                         <span>Web Developer & Graphic Design Freelancer</span>
                         <Link href={'https://wa.me/qr/IIS2RHRNJC6YN1'} target='blank'><button className='botao'>Hire-me</button></Link>
