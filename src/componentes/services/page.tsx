@@ -37,7 +37,7 @@ export default function Service(){
                             />
                         </div>
                         <h2>Vectoring</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>Logo vectorization, drawings and shape creation</p>
                     </div>
                     <div className='box'>
                         <div className='box-vct'></div>
