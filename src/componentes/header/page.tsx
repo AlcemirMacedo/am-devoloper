@@ -2,14 +2,13 @@
 import Image from 'next/image'
 import profilePic from './img/logo.png'
 import Link from 'next/link'
-import Head from 'next/head'
 import './header.css'
 
 
 export default function Header(){
 
 
-    return(
+    return( 
 
         
 
@@ -25,12 +24,13 @@ export default function Header(){
                     
                 </div>
                 <nav className='nav-list'>
-                    <div className='menu-mobile'>
+                    <div id='menu-mobile'>
                         <div className='line1'></div>
                         <div className='line1'></div>
                         <div className='line1'></div>
                     </div>
-                    <ul className='menu-ul'>
+                    <button></button>
+                    <ul id='menu-ul'>
                         <li><a href='#home'>home</a></li>
                         <li><a href='#about'>about me</a></li>
                         <li><a href='#resume'>resume</a></li>

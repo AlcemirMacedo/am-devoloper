@@ -35,13 +35,13 @@ header{
     height: 60px;
 }
 
-.menu-mobile{
+#menu-mobile{
     cursor: pointer;
     z-index: 2000;
     display: none;
 }
 
-.menu-mobile .line1{
+#menu-mobile .line1{
     width: 32px;
     height: 2px;
     background-color: #ffffff;
@@ -57,7 +57,7 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
-.nav-list .menu-ul{
+.nav-list #menu-ul{
     display: flex;
     list-style: none;
     align-items: center;
@@ -118,8 +118,8 @@ header{
         width: 140px;
         height: 45px;
     }
-    .nav-list .menu-ul{
-        display: block;
+    .nav-list #menu-ul{
+        display: none;
         position: fixed;
         top: 80px;
         width: 50vw;
@@ -140,9 +140,12 @@ header{
     .cellPhone{
         display: none;
     }
-    .menu-mobile{
+    #menu-mobile{
         display: block;
         padding-right: 20px;
+    }
+    #menu-mobile:checked ~ #menu-ul{
+        display: block;
     }
     .container{
         width:100%;
