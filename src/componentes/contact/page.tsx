@@ -1,4 +1,5 @@
 import './contact.css'
+import Link from 'next/link'
 import { FormEvent } from 'react'
 import Image from 'next/image'
 import phoneContact from './assets/phone.png'
@@ -95,7 +96,10 @@ export default function Contact(){
                                     />
                                 </div>
                             </div>
-                    </div>
+                        </div>
+                        <div className='hire'>
+                            <Link href={'https://wa.me/qr/IIS2RHRNJC6YN1'} target='blank'><button className='botao'>Hire-me</button></Link>
+                        </div>
                     </div>
 
                 </section>
