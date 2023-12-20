@@ -9,9 +9,7 @@ export default function Header(){
 
 
     return( 
-
-        
-
+      
         <header>
             <div className='container'>
                 <div className="logo">
@@ -25,12 +23,14 @@ export default function Header(){
                 </div>
                 <nav className='nav-list'>
                     <div id='menu-mobile'>
-                        <div className='line1'></div>
-                        <div className='line1'></div>
-                        <div className='line1'></div>
+                        <label htmlFor='toggle'>
+                            <div className='line1'></div>
+                            <div className='line1'></div>
+                            <div className='line1'></div>
+                        </label>
                     </div>
-                    <button></button>
-                    <ul id='menu-ul'>
+                    <input type="checkbox" id="toggle"></input>
+                    <ul id='exibir'>
                         <li><a href='#home'>home</a></li>
                         <li><a href='#about'>about me</a></li>
                         <li><a href='#resume'>resume</a></li>
@@ -39,6 +39,8 @@ export default function Header(){
                         <li><a href='#blog'>videos</a></li>
                         <li><a href='#contact'>contact</a></li>
                     </ul>
+                        
+                    
                 </nav>
                 <div className='cellPhone'>
                     <span>+55 92 98430-4514</span>

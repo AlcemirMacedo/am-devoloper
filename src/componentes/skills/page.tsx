@@ -10,9 +10,9 @@ export default function Skills(){
                 </div>
                 <section className='skills-topic'>
                     <div className='box box1'>
-                        <h1>All the skills that I have in that field of work are mentioned.</h1>
+                        <h1>Some of my skills are mentioned in this list</h1>
                         
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p><br/>
+                        <p>When I entered the world of technology, my goal was always to master the tools, have extensive knowledge of software and always be up to date. Graphic design tools were the first in my long list of domains, starting with a brief knowledge of 3D modeling with 3Dmax, then I put it aside because it is a paid program and difficult to maintain, so I moved on to Photoshop and I delved deeper into its tools, but in Photoshop, a lot of knowledge is never enough.</p><br/>
                         <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                     </div>
                     <div className='box box2'>
@@ -23,19 +23,19 @@ export default function Skills(){
                         </div>
                         
                         <div className='skill'>
-                            <span className='skill-name'>Adobe Illustrator</span>
+                            <span className='skill-name' translate='no'>Adobe Illustrator</span>
                             <span className='line1 illustrator'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>Adobe Photoshop</span>
+                            <span className='skill-name' translate='no'>Adobe Photoshop</span>
                             <span className='line1 photoshop'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>Figma</span>
+                            <span className='skill-name' translate='no'>Figma</span>
                             <span className='line1 figma'></span>
                         </div>
                         <div className='skill last'>
-                            <span className='skill-name'>Blender</span>
+                            <span className='skill-name' translate='no'>Blender</span>
                             <span className='line1 blender'></span>
                         </div>
                         <h2>PROGRAMMING - FRONT END DEVELOPER</h2>
@@ -52,19 +52,19 @@ export default function Skills(){
                             <span className='line1 css'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>ReactJS</span>
+                            <span className='skill-name' translate='no'>ReactJS</span>
                             <span className='line1 react'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>NextJS</span>
+                            <span className='skill-name' translate='no'>NextJS</span>
                             <span className='line1 next'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>MySql</span>
+                            <span className='skill-name' translate='no'>MySql</span>
                             <span className='line1 mysql'></span>
                         </div>
                         <div className='skill'>
-                            <span className='skill-name'>Firebase</span>
+                            <span className='skill-name' translate='no'>Firebase</span>
                             <span className='line1 firebase'></span>
                         </div>
                     </div>
