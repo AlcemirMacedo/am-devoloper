@@ -2,11 +2,12 @@ import './skills.css'
 export default function Skills(){
     return(
         <section className="skills-section">
+            <a id='skills'></a>
             <div className="container">
                 <div className="title">                    
                     <div className="line"></div>
-                        <h1>my skills</h1>
-                    <div className='bigTitle'>my skills</div>
+                        <h1>skills</h1>
+                    <div className='bigTitle'>skills</div>
                 </div>
                 <section className='skills-topic'>
                     <div className='box box1'>

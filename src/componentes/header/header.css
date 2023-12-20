@@ -8,7 +8,7 @@ header{
     justify-content: center;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     position: fixed;
 }
 
@@ -66,7 +66,7 @@ header{
 
 .nav-list ul li{
     margin-right: 15px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 300;
     cursor: pointer;
     transition: all 0.5s;

@@ -33,6 +33,8 @@ export default function Header(){
                     <ul id='exibir'>
                         <li><a href='#home'>home</a></li>
                         <li><a href='#about'>about me</a></li>
+                        <li><a href='#service'>services</a></li>
+                        <li><a href='#skills'>skills</a></li>
                         <li><a href='#resume'>resume</a></li>
                         <li><a href='#portfolio'>portfolio</a></li>
                         <li><a href='#reviews'>reviews</a></li>

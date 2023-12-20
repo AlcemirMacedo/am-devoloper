@@ -17,6 +17,7 @@
 }
 
 .resume-topic{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #ffffff;
@@ -24,9 +25,9 @@
     align-items: flex-start;
 }
 .resume-topic .side1, .side2{
+    width: 45%;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 .resume-topic .side1{
     margin-right: 30px;
@@ -101,6 +102,12 @@
     .resume-topic .side1{
         margin-right: 0;
         margin-bottom: 50px;
+    }
+    .resume-topic .side2{
+        padding-left: 0;
+    }
+    .resume-topic .side1, .side2{
+        width: 100%;
     }
 }
 

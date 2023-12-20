@@ -18,29 +18,26 @@ export default function Resume(){
                         <h1><span>
                             <Image 
                                 src={iconExpirience}
-                                alt="Alcemir Macedo"
+                                alt="Expirience"
                                 width={32}
                                 height={28}
                             />
                             </span> Expirience</h1>
                         <ul>
                             <li>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>Graftech Indústria Gráfica</h1>
+                                <h2>2022 - 2023 | Manaus-AM</h2>
+                                <p>Final Art and Graphic Designer</p>
                             </li>
                             <li>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>SEJUSC (Secrertaria de Justiça e Cidadania)</h1>
+                                <h2>2014 - 2015 | Manaus-AM</h2>
+                                <p>Graphic Designer</p>
                             </li>
                             <li className='last-li'>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>Graftech Indústria Gráfica</h1>
+                                <h2>2014 - 2015 | Manaus-AM</h2>
+                                <p>Final Art and Graphic Designer</p>
                             </li>
                         </ul>
                     </div>
@@ -48,29 +45,26 @@ ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
                         <h1><span>
                             <Image 
                                 src={iconEdcation}
-                                alt="Alcemir Macedo"
+                                alt="Education"
                                 width={32}
                                 height={28}
                             />
                             </span>Education</h1>
                         <ul>
                             <li>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>Senior Publicidade</h1>
+                                <h2>2010 - 2012 | Manaus-AM</h2>
+                                <p>Web Design and Art Assistant</p>
                             </li>
                             <li>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>Brasil Note Bebidas</h1>
+                                <h2>2006 - 2009 | Manaus-AM</h2>
+                                <p>External Salesman</p>
                             </li>
                             <li className='last-li'>
-                                <h1>Freelancer</h1>
-                                <h2>Manaus-AM</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+                                <h1>Marinha do Brasil</h1>
+                                <h2>2000 - 2005 | Manaus-AM</h2>
+                                <p>Marinheiro QS</p>
                             </li>
                         </ul>
                     </div>

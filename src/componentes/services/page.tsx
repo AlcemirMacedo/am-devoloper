@@ -7,11 +7,13 @@ import iconVectoring from './assets/vectoring.png'
 export default function Service(){
     return(
         <section className="service-section">
+            <a id='service'></a>
             <div className="container">
+                
                 <div className="title">                    
                     <div className="line"></div>
-                        <h1>Serviços</h1>
-                    <div className='bigTitle'>Serviços</div>
+                        <h1>Services</h1>
+                    <div className='bigTitle'>Services</div>
                 </div>
 
                 <section className='box-service'>
