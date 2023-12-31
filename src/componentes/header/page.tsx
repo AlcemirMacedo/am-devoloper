@@ -31,15 +31,14 @@ export default function Header(){
                     </div>
                     <input type="checkbox" id="toggle"></input>
                     <ul id='exibir'>
-                        <li><a href='#home'>home</a></li>
-                        <li><a href='#about'>about me</a></li>
-                        <li><a href='#service'>services</a></li>
+                        <li><a href='#home'>início</a></li>
+                        <li><a href='#about'>sobre</a></li>
+                        <li><a href='#service'>serviços</a></li>
                         <li><a href='#skills'>skills</a></li>
-                        <li><a href='#resume'>resume</a></li>
-                        <li><a href='#portfolio'>portfolio</a></li>
-                        <li><a href='#reviews'>reviews</a></li>
-                        <li><a href='#blog'>videos</a></li>
-                        <li><a href='#contact'>contact</a></li>
+                        <li><a href='#resume'>resumo</a></li>
+                        <li><a href='#portfolio'>portfólio</a></li>
+                        <li><a href='#blog'>vídeos</a></li>
+                        <li><a href='#contact'>contato</a></li>
                     </ul>
                         
                     

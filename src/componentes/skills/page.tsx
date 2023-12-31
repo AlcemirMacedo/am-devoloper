@@ -11,10 +11,13 @@ export default function Skills(){
                 </div>
                 <section className='skills-topic'>
                     <div className='box box1'>
-                        <h1>Some of my skills are mentioned in this list</h1>
+                        <h1>Algumas de minhas skills são mencionadas nesta lista</h1>
                         
-                        <p>When I entered the world of technology, my goal was always to master the tools, have extensive knowledge of software and always be up to date. Graphic design tools were the first in my long list of domains, starting with a brief knowledge of 3D modeling with 3Dmax, then I put it aside because it is a paid program and difficult to maintain, so I moved on to Photoshop and I delved deeper into its tools, but in Photoshop, a lot of knowledge is never enough.</p><br/>
-                        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+                        <p>É um tanto complicado pra eu ter que listar minhas habilidades de forma organizada e precisa, aliás, no mundo da informática, muito conhecimento nunca é o suficiente, mas eu sigo na luta aprendendo todos os dias.</p>
+                        <p> Quando entrei no mundo da tecnologia meu objetivo sempre foi dominar as ferramentas de softwares, ter amplo conhecimento e estar sempre atualizado. Por esse motivo eu conheci uma variedade de softwares durante minha jornada de estudos e trabalhos.  As ferramentas de design gráfico foram as primeiras na minha longa lista de domínios, começando com um breve conhecimento de modelagem 3D com 3Dmax, depois passei para o Photoshop, Corel Draw, Illustrator e em pararelo a tudo isso aprendi muito sobre programação e também apromorei muito meus conhecimentos em lígua inglêsa.</p>
+                        <p></p>
+                        <br/>
+                        
                     </div>
                     <div className='box box2'>
                         <h2>GRAPHIC DESIGN</h2>                        

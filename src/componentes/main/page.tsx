@@ -16,10 +16,10 @@ export default function Banner(){
             <h1 className='h1-fade'>ALCEMIR<br/>MACEDO</h1>
                 <div className='container-main'>
                     <div className="banner">
-                        <h2>Hello, i am</h2>
+                        <h2>Olá, sou</h2>
                         <h1>alcemir macedo</h1>
-                        <span>Web Developer & Graphic Design Freelancer</span>
-                        <Link href={'https://wa.me/qr/IIS2RHRNJC6YN1'} target='blank'><button className='botao'>Hire-me</button></Link>
+                        <span>Desenvolvedor Web e de Design Gráfico Freelancer</span>
+                        <Link href={'https://wa.me/qr/IIS2RHRNJC6YN1'} target='blank'><button className='botao'>Contrate-me</button></Link>
                     </div>
                     <div className='social-nav'>
                         <div className='barra-vert'>

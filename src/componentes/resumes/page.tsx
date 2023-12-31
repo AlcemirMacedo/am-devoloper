@@ -34,10 +34,25 @@ export default function Resume(){
                                 <h2>2014 - 2015 | Manaus-AM</h2>
                                 <p>Graphic Designer</p>
                             </li>
-                            <li className='last-li'>
+                            <li>
                                 <h1>Graftech Indústria Gráfica</h1>
                                 <h2>2014 - 2015 | Manaus-AM</h2>
                                 <p>Final Art and Graphic Designer</p>
+                            </li>
+                            <li>
+                                <h1>Senior Publicidade</h1>
+                                <h2>2010 - 2012 | Manaus-AM</h2>
+                                <p>Web Design and Art Assistant</p>
+                            </li>
+                            <li>
+                                <h1>Brasil Norte Bebidas</h1>
+                                <h2>2006 - 2009 | Manaus-AM</h2>
+                                <p>External Salesman</p>
+                            </li>
+                            <li className='last-li'>
+                                <h1>Marinha do Brasil</h1>
+                                <h2>2000 - 2005 | Manaus-AM</h2>
+                                <p>Marinheiro QS</p>
                             </li>
                         </ul>
                     </div>

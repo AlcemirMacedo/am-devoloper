@@ -2,6 +2,10 @@ import './service.css';
 import Image from 'next/image';
 import iconService from './assets/icones.png'
 import iconVectoring from './assets/vectoring.png'
+import iconLight from './assets/light.png'
+import iconPrint from './assets/printing.png'
+import iconModeling from './assets/3d-modeling.png'
+import iconVideo from './assets/iconvideo.png'
 
 
 export default function Service(){
@@ -12,8 +16,8 @@ export default function Service(){
                 
                 <div className="title">                    
                     <div className="line"></div>
-                        <h1>Services</h1>
-                    <div className='bigTitle'>Services</div>
+                        <h1>Serviços</h1>
+                    <div className='bigTitle'>Serviços</div>
                 </div>
 
                 <section className='box-service'>
@@ -26,8 +30,8 @@ export default function Service(){
                             height={45}
                            />
                         </div>
-                        <h2>Landig Pages & Web Sites Developement</h2>
-                        <p>I can develop an elegant Landing Page for your business or even an institutional website with more complex functionalities.</p>
+                        <h2>Landing Pages e Web Sites</h2>
+                        <p>Desenvolvimento de Landing Pages e Web Sites Institucionais</p>
                     </div>
                     <div className='box'>
                         <div className='box-vct'>
@@ -38,28 +42,58 @@ export default function Service(){
                                 height={45}
                             />
                         </div>
-                        <h2>Vectoring</h2>
-                        <p>Logo vectorization, drawings and shape creation</p>
+                        <h2>Vetorização</h2>
+                        <p>Vetorização de logo e desenvolvimento de marcas</p>
                     </div>
                     <div className='box'>
-                        <div className='box-vct'></div>
-                        <h2>Sketches</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <div className='box-vct'>
+                            <Image
+                                src={iconLight}
+                                alt="Light"
+                                width={45}
+                                height={45}
+                            />
+                        </div>
+                        <h2>Criação de Artes</h2>
+                        <p>
+                            Artes Gráficas para mídias sociais e campanhas publicitárias
+                        </p>
                     </div>
                     <div className='box'>
-                        <div className='box-vct'></div>
-                        <h2>Sketches</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <div className='box-vct'>
+                            <Image
+                                src={iconPrint}
+                                alt="Printing"
+                                width={45}
+                                height={45}
+                            />
+                        </div>
+                        <h2>Impressos</h2>
+                        <p>Cartões de Visita, Calendários, Agendas e Panfletos</p>
                     </div>
                     <div className='box'>
-                        <div className='box-vct'></div>
-                        <h2>Sketches</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <div className='box-vct'>
+                            <Image
+                                src={iconModeling}
+                                alt="Printing"
+                                width={45}
+                                height={45}
+                            />
+                        </div>
+                        <h2>Modelagem 3D</h2>
+                        <p>Criação de estruturas 3D para palcos e projetos de arquitetura</p>
                     </div>
                     <div className='box'>
-                        <div className='box-vct'></div>
-                        <h2>Sketches</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <div className='box-vct'>
+                            <Image
+                                src={iconVideo}
+                                alt="Printing"
+                                width={45}
+                                height={35}
+                            />
+                        </div>
+                        <h2>Edição de Vídeo</h2>
+                        <p>Edição de vídeos para comerciais, stores e apresentações</p>
                     </div>
 
                     
